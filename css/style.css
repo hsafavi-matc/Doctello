@@ -207,6 +207,24 @@ services
 .icon-info p{
 	font-size: 15px !important;
 }
+.map-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.section-padding-bottom-extra {
+padding-bottom: 50px !important; /* The !important rule is to ensure it takes precedence */
+}
+    
 /***************************************
 cta-1
 ***************************************/
@@ -244,6 +262,8 @@ td {
 .medi-info, .time-info{
     font-size: 14px;
 }
+
+
 /***************************************
 about
 ***************************************/
@@ -533,3 +553,4 @@ footer
         font-size: 24px;
     }
 }
+
